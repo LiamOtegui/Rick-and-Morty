@@ -1,0 +1,32 @@
+.input {
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    right: 3px;
+    top: 2px;
+    padding: 6px;
+    border: 1px solid #004e28;
+    border-radius: 15px;
+    background-color: #069e27;
+    color: white;
+}
+
+.button {
+    font-size: 15px;
+    position: relative;
+    left: 730px;
+    top: 5px;
+    font-family: fantasy;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 104, 14);
+    color: rgb(0, 104, 14);
+    background-color: rgb(101, 237, 139);
+    transition: .15s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 2px solid rgb(101, 237, 139);
+    color: rgb(101, 237, 139);
+    background-color: rgb(0, 104, 14);
+}
